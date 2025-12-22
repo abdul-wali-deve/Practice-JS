@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment#16</title>
+  </head>
+  <body>
+    <!-- program 1 -->
+    <h1>Program 1. show input value</h1>
+    <input
+      type="text"
+      name="username"
+      id="name1"
+      placeholder="Enter your name"
+    />
+    <br />
+    <br />
+    <button onclick="showName()">show Name</button>
+    <p id="result1"></p>
+
+    <!-- program2 -->
+    <h1>Program 2 . Add two number</h1>
+    <input
+      type="text"
+      name="Number1"
+      id="number1"
+      placeholder="Enter first number"
+    />
+    <input
+      type="text"
+      name="Number2"
+      id="number2"
+      placeholder="Enter second number"
+    />
+    <button onclick="add(number1,number2)">Add</button>
+    <p id="sum"></p>
+
+    <!-- program3 -->
+    <a href="#" onclick="changepara()">changepara</a>
+    <p id="para1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iste
+      illoe distinctio quo architecto alias atque cum veniam. Eaque.
+    </p>
+
+    <!-- program4 -->
+
+    <!-- program5 -->
+    <p id="para2" onmouseover="changecolor()" onmouseleave="resetcolor()">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+      debitis, veritatis tempore ipsa dicta officiis dolores repellendus
+      doloremque a eos similique! Placeat neque distinctio molestias incidunt
+      labore perferendis natus voluptates.
+    </p>
+
+    <!-- program6 -->
+    <input type="text" id="textInput" placeholder="Enter text" />
+    <button onclick="copyValue()">Copy</button>
+    <p id="output"></p>
+
+    <!-- program7 -->
+
+    <button
+      onmouseover="changeColor1()"
+      onmouseout="restoreColor()"
+      id="myButton"
+    >
+      Hover Me
+    </button>
+
+
+
+    
+    <!-- program8 -->
+    <p id="text">This is a paragraph.</p>
+    <button onclick="increaseFont()">Increase Font Size</button>
+
+
+
+
+    <!-- program9 -->
+    <input type="text" id="textInput" placeholder="Enter text" />
+    <button onclick="showLength()">Show Length</button>
+    <p id="result"></p>
+
+
+
+
+    <!-- program10 -->
+    <input type="text" id="textInput" placeholder="Enter text" />
+    <p id="para">This text will be cleared.</p>
+
+    <a href="#" onclick="clearData()">Clear</a>
+
+    <script lang="JS" src="program.js"></script>
+  </body>
+</html>
